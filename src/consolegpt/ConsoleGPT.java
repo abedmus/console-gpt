@@ -18,7 +18,7 @@ public class ConsoleGPT {
 
     public static String ChatGPT(String message) {
         String url = "https://api.openai.com/v1/chat/completions";
-        String apiKey = "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";
+        String apiKey = ""; //place your api key here
         String model = "gpt-3.5-turbo";
 
         try {
